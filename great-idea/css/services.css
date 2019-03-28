@@ -62,3 +62,71 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+.navRef {
+    filter: opacity(60%);
+    color: grey;
+    text-decoration: none;
+}
+header {
+    width: 80%;
+    text-align: center;
+    margin: 20px;
+    margin-left: 15px;
+}
+h1 {
+    text-align: left;
+    margin-top: 20px;
+}
+.hContent {
+    text-align: left;
+    padding-bottom: 20px;
+    border-bottom: solid 1px rgb(77, 76, 76); 
+}
+section {  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.content {
+    padding: 15px;
+    width: 300px;
+    border: solid .8px rgb(77, 76, 76);
+    background-color: rgb(241, 238, 238);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+button {
+    margin-top: 10px;
+}
+footer {
+    display: flex;
+    text-align: left;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    border-top: solid 1px rgb(77, 76, 76);
+    width: 80%;
+    margin: 20px;
+}
+.fSection {
+    margin: 15px;
+}
+ul {
+    margin-top: 15px;
+}
+li {
+    margin-top: 5px;
+    list-style-type: circle;
+}
+.services-info-img {
+    margin-top: 15px;
+}
+h3 {
+    text-align: center;
+}
